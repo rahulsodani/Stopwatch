@@ -10,9 +10,13 @@
 
 <body>
     <div id="stopwatch">
-        <h1><span id="seconds">00</span>
-            <span>:</span>
-            <span id="mseconds">00</span>
+        <h1><span style="display: inline-block;">
+                <div id="seconds">00 </div>
+                <div class="secondsvirtual">00</div>
+            </span>
+
+            <span style="display: inline-block;">:</span>
+            <span style="display: inline-block;" id="mseconds">00</span>
         </h1>
         <button id="start" style="background-color: green;">Start</button>
         <button id="stop" style="background-color: red;">Stop</button>
