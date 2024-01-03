@@ -1,6 +1,5 @@
 #stopwatch{
     padding: 2% 0% 5%;
-    width: 32%;
     border: solid black;
     margin: 15% 35%;
     text-align: center;
@@ -14,4 +13,17 @@ button{
     padding: 4% 6%;
     font-size: 16px;
     margin: 0px 3%;
+}
+
+.secondsvirtual{
+    position: absolute;
+    top:36%;
+    color: transparent;
+
+}
+.classtop{
+
+    transition:all 0.5s ease-in-out ;
+    top: 31%;
+    color: black;
 }
